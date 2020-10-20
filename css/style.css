@@ -1,0 +1,39 @@
+
+body{background-color: black;width: 1920px; height: 1000px; color: white;}
+.logo{width: 17%; height: 27.6%; left: 4.6875%; top: 8%; position: absolute; display: flex; flex-direction: column;}
+.logoimg{width: 327px; height: 152px ;}
+.type{color: white; margin-top: 25px; line-height: 1.5; letter-spacing: -0.25; opacity: 80;}
+
+
+.floor{width: 4,375%; height: 41.2%;  position: absolute; bottom:5.7%; left: 4.6875%;
+		display: flex; flex-direction: column;}
+
+		.box{width: 84px; height: 80.26px; background-color: gray; border: 1pt solid white; text-align: center;
+				font-size: 36px ; vertical-align: middle; display:table-cell;cursor: pointer; transition: all 0.5s;}
+				.box span {cursor : pointer; position: relative; transition: 0.5s; display: inline-block; position: relative;transition: 0.5s;}
+				.box span:after{content: '00bb'; position: absolute; opacity: 0; top: 0; right: -20px;transition: 0.5s;}
+			
+
+.contents{width: 24.375%; height: 45% ; position: absolute; right: 8.48%; top: 8%;
+	display: flex; flex-direction: row;}
+.minibox{width: 58px; height: 864px;
+			animation-name: dong; animation-duration: 5s; animation-iteration-count: infinite;}
+
+.mainimg{width: 69.375%; height: 48.8%;position: absolute;bottom: 0; left: 12.8%;}
+.jordan{width: 1032px; height: 937px; position: absolute; bottom: 0; left: 212px;}
+.hand2{position: absolute;bottom: 310px; left: 40px; animation-name: ddong; animation-duration: 5s; animation-iteration-count: infinite; animation-direction: alternate;}
+.hand3{position: absolute; bottom: 210px;left: -100px; animation-name: ddong; animation-duration: 5s; animation-iteration-count: infinite; animation-direction: alternate-reverse;}
+
+
+
+@-webkit-keyframes dong{
+	0%{-webkit-transform: rotateY(0deg);}
+	100%{-webkit-transform: rotateY(360deg);}
+}
+
+@-webkit-keyframes ddong{
+	0%{ opacity:30%;}
+	50%{opacity:60%}
+	100%{ opacity:80%;}
+}
+
